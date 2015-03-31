@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 async.parallel({
-  ${1:one}: function(callback){
+  ${1:one}: function(callbak) {
     ${2://body}
   },
-  ${3:two}: function(callback){
+  ${3:two}: function(callback) {
     ${4://body}
   },
 },
