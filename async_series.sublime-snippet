@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 async.series({
-  ${1:one}: function(callback){
+  ${1:one}: function(callback) {
     ${2:callback(null,{\});}
   },
-  ${3:two}: function(callback){
+  ${3:two}: function(callback) {
     ${4:callback(null,{\});}
   },
 },
