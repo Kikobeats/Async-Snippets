@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
 async.waterfall([
-  function(callback){
+  function(callback) {
       callback(null, ${1:'one'}, ${2:'two'});
   },
-  function(${3:arg1}, ${4:arg2}, callback){
+  function(${3:arg1}, ${4:arg2}, callback) {
       callback(null, ${5:'three'});
   },
-  function(${6:arg1}, callback){
+  function(${6:arg1}, callback) {
       // arg1 now equals 'three'
       callback(null, ${7:'done'});
   }
