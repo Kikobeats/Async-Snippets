@@ -2,10 +2,10 @@
   <content><![CDATA[
 async.forEach(
   ${1:array}, 
-  function(item,callback){
+  function(item, callback) {
     ${2:callback();}
   }, 
-  function(err){
+  function(err) {
     // if any of the saves produced an error, err would equal that error
     if(err) {
       ${3}
