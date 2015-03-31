@@ -17,5 +17,5 @@ function(err, ${5:results}) {
   <tabTrigger>async_series</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.js</scope>
-  <description>async waterfall</description>
+  <description>async series</description>
 </snippet>
